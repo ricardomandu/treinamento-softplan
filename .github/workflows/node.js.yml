@@ -33,7 +33,7 @@ jobs:
     #merge do relatório
     - run: npm run report:merge
     #gerar o relatório
-    - run: npm run report:generate
+    #- run: npm run report:generate
     
     #upload do artefato
     - name: Upload a Build Artifact
